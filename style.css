@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-bottom: 20px;
+    float: left;
+}
+#navbar{
+    line-height: 1.7em;
+    background-color: #333;
+    overflow: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+#navbar ul{
+    float: right;  
+}
+#navbar li{
+    float: left;
+    list-style: none;
+}
+#navbar ul li a{
+    
+    text-decoration: none;
+    display: block;
+    padding: 20px 30px;
+    color: white;
+}
+#navbar h1 a{
+    text-decoration: none;
+    color: white;
+}
+#navbar h1{
+    margin-top: 20px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: #444;
+    color: coral;
+}
+
+
+
+
+
+/*show case heseg*/
+.showcase{
+    height: 750px;
+    background: url(/img/pexels-dids-2675061.jpg);
+    
+}
+.showcase h1{
+    padding-left: 340px;
+    padding-top: 200px;
+    font-size: 35px;
+}
+.showcase p{
+    display:inline-block;
+    padding-top: 230px;
+    padding-left: 290px;
+    padding-right: 290px;
+    padding-top: 20px;
+}
+
+.showcase button{
+    margin-left: 520px;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: #333;
+    border-radius: 20px;
+}
+.showcase button a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    overflow: auto;
+    display: block;
+    
+}
+.showcase button:hover{
+    background-color: #444;
+    color: coral;
+}
+/*sign up css*/
+ 
+.signUp{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lists{
+    margin: 100px 400px;
+    list-style: none;
+    line-height: 70px;
+}
